@@ -1,0 +1,66 @@
+@charset "utf-8";
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: .9rem;
+}
+
+header,
+main,
+footer {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    padding: 0.5rem;
+    background-color: rgb(6, 6, 6);
+    color: white;
+}
+
+main {
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1rem;
+    margin-left: 3%;
+}
+
+li {
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+p {
+    text-align: center;
+}
+
+p a,
+p a:link,
+p a:hover,
+p a:visited,
+p a:active {
+    color: white;
+    font-weight: bold;
+}
+
+main a,
+main a:link,
+main a:hover,
+main a:visited,
+main a:active {
+    color: rgb(24, 6, 166);
+}
+
+header img {
+    width: 17rem;
+    margin: auto;
+    display: flex;
+}
