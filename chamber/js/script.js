@@ -47,7 +47,7 @@ if (month == 0) {
     month = "December"
 }
 
-date = n + ", " + month + " " + day + ", " + year;
+date = n + ", " + day + " " + month + ", " + year;
 document.querySelector('#date').textContent = date;
 
 
@@ -55,3 +55,5 @@ function toggleMenu() {
     console.log(document.getElementById("menu").classList);
     document.getElementById("menu").classList.toggle("hide");
 }
+var year = new Date().getFullYear();
+document.querySelector('#year').textContent = year;
