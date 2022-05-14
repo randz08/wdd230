@@ -15,13 +15,15 @@
 
 <body>
     <header>
-        <img src='./images/weatherforecastlogo.png' alt="Climate Connection Logo">
+        <img src='./images/weatherforecastlogo.png' alt="Weather Forecast Logo">
         <h1 class="title">Weather Forecast</h1>
         <p class="description">connect to your weather</p>
     </header>
 
     <nav>
-        <button onclick="toggleMenu()"><p>&#9776 MENU</p></button>
+        <button onclick="toggleMenu()">
+            <p>&#9776 MENU</p>
+        </button>
         <ul id="menu" class="hide">
             <li>
                 <a href="# ">
@@ -71,9 +73,16 @@
     </main>
 
     <footer>
-        <p>&copy;Weather Forecast | Conrad C. Obedoza | </p>
+        <div class="lfooter"> 
+        <img src='./images/weatherforecastlogo.png' width="100" alt="Weather Forecast Logo">
+        <h2>Weather Forecast</h2>
+        <p>CSJDM, Philippines | Location Map</p>
+        </div>
+        <hr>
+        <p>&copy;Weather Forecast | Conrad C. Obedoza | WDD230 </p>
         <p><span id="date"></span></p>
     </footer>
+
     <script src="./js/script.js "></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src='./js/webfontload.js'></script>
