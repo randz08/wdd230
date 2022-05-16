@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSJDM Bulacan | Weather Forecast</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link rel="shortcut icon" href="./favicon.ico">
+</head>
+
+<body>
+    <div class="top" id="message-top">
+        <h2>Lutong Pinoy in the Park! 9:00 a.m. Saturday at the city park pavilion</h2>
+    </div>
+    <header>
+        <img src='./images/weatherforecastlogo.png' alt="Weather Forecast Logo">
+        <h1 class="title">WEATHER FORECAST</h1>
+        <p class="description">connect to your weather</p>
+    </header>
+
+    <nav>
+        <ul class="navigation">
+            <li>
+                <a class="ham" href="#">
+                    <p>&#9776; MENU</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p>HOME</p>
+                </a>
+            </li>
+            <li>
+                <a class='active' href="#">
+                    <p>🏕 CSJDM</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p>❄ SODA SPRINGS</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p>⛰️ THE RIVERS AND MOUNTAINS</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p>⚡ STORM CENTER</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <p>📸 GALLERY</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="title">
+            <h1>CSJDM</h1>
+        </div>
+
+        <div class="hero">
+            <picture>
+                <source srcset="./images/bitbit-hero.jpg" media="(min-width:1000px)">
+                <source srcset="./images/bitbit-hero-medium.jpg" media="(min-width:45rem) and (max-width:1000px)">
+                <img src="./images/bitbit-small.jpg" alt="bitbit-river">
+
+            </picture>
+            <section class="summary">
+                <h3>Weather Summary</h3>
+                <hr>
+                <p>Currently: <span>Sunny</span></p>
+                <p>High: <span id='temperature'>45</span>ºF</p>
+                <p>Wind Chill: <span id='chill'></span>ºF</p>
+                <p>Humidity: <span>69</span>%</p>
+                <p>Wind Speed: <span id='wind_speed'>12</span> mph</p>
+            </section>
+
+
+        </div>
+
+        <div class="container forecast">
+
+            <div class="day day1">
+                <p class="day-forecast">Friday</p>
+                <p class="symbol">&#127749;</p>
+                <p class="temperature">37ºF</p>
+            </div>
+            <div class="day day2">
+                <p class="day-forecast">Saturday</p>
+                <p class="symbol">&#127749;</p>
+                <p class="temperature">37ºF</p>
+            </div>
+            <div class="day day3">
+                <p class="day-forecast">Sunday</p>
+                <p class="symbol">&#127749;</p>
+                <p class="temperature">37ºF</p>
+            </div>
+            <div class="day day4">
+                <p class="day-forecast">Monday</p>
+                <p class="symbol">&#127749;</p>
+                <p class="temperature">37ºF</p>
+            </div>
+            <div class="day day5">
+                <p class="day-forecast">Tuesday</p>
+                <p class="symbol">&#127749;</p>
+                <p class="temperature">37ºF</p>
+            </div>
+        </div>
+        <div class="container article-div">
+            <img src="./images/article-image.jpg" alt="article img">
+            <h2>CSJDM</h2>
+            <p class="author">Conrad Obedoza</p>
+
+
+            <p class="article">San Jose del Monte, officially known as the City of San Jose del Monte (abbreviated as
+                SJDM or CSJDM; Filipino: Lungsod ng San Jose del Monte), is a 1st class component city in the province
+                of Bulacan, Philippines. According to the 2020 census, it has a population of 651,813 people, making it
+                the largest local government unit within the province of Bulacan and Central Luzon and the 18th most
+                populated city in the Philippines. The City of San Jose del Monte, has proclaimed as a highly-urbanized
+                city on December 4, 2020, by the virtue of Proclamation No. 1057, signed by President Rodrigo Duterte
+                and shall take effect after the ratification in a plebiscite.
+
+                Located in the southeast of the province, it is bordered by the cities of Caloocan and Quezon in Metro
+                Manila to the south, by the town of Rodriguez, Rizal to the east, the towns of Santa Maria and Marilao
+                to the west and Norzagaray to the north.
+
+                The city is home to some of the biggest resettlement areas in the Philippines like the Sapang Palay
+                resettlement area spread over 36 barangays, Pabahay 2000 in Barangay Muzon and Towerville in Barangay
+                Minuyan Proper. Most of the city's population come from former informal settlers along the creeks,
+                esteros, riverbanks and railway tracks of Metro Manila.</p>
+        </div>
+
+
+        <div class="contato">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.25058134018!2d-111.90281327189682!3d42.100442153726405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1634316286896!5m2!1spt-BR!2sbr"
+                width="275" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            <div class="contacts-data">
+                <h3>WEATHER FORECAST</h3>
+                <p>Brgy. Dulong Bayan, CSJDM
+                </p>
+                <p>55555-44444</p>
+                <p>talktous@weatherforecast.com</p>
+
+                <div class="contact-pics">
+                    <a class="insta" href="#"><img alt="Insta" src="./images/instagram.png"></a>
+                    <a class="face" href="#"><img alt="Facebook" src="./images/facebook.png"></a>
+                    <a class="whats" href="#"><img alt="Whatsapp" src="./images/whatsapp.png"></a>
+                    <a class="twitter" href="#"><img alt="Twitter" src="./images/twitter.png"></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="lfooter">
+            <img src='./images/weatherforecastlogo.png' width="100" alt="Weather Forecast Logo">
+            <h2>Weather Forecast</h2>
+            <p>CSJDM, Bulacan, Philippines | 📍 Location Map</p>
+        </div>
+        <hr>
+        <p>&copy;<span id="year"></span> Weather Forecast | Conrad C. Obedoza | WDD230 </p>
+        <p>Last Modification | <span id="date"></span></p>
+    </footer>
+    <script src="./js/script.js "></script>
+    <script src="./js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="./js/webfontload.js"></script>
+</body>
+
+</html>
