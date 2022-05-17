@@ -130,7 +130,7 @@ header {
 /*structures*/
 
 html {
-    background-color: #FFEBF5;
+    background-color: #979797;
 }
 
 main {
@@ -171,7 +171,7 @@ iframe {
 }
 
 .contato {
-    background-color: #FFEBF5;
+    background-color: #979797;
     margin-bottom: 0;
     padding: 1rem;
     margin: 1rem auto 0.5rem auto;
@@ -245,7 +245,7 @@ iframe {
 
 .summary {
     display: block;
-    background: radial-gradient(#eee, #FFEBF5);
+    background: radial-gradient(#eee, #979797);
     border: 1px solid #000;
     padding: 1.5rem;
     box-shadow: 0 0 30px #0b00a8;
@@ -291,7 +291,7 @@ iframe {
 }
 
 .article-div {
-    background-color: #FFEBF5;
+    background-color: #e6e2e4;
 }
 
 .article-div h2 {
