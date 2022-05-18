@@ -205,8 +205,8 @@ main div.weather h2 {
     bottom: 20%;
 }
 #weatherIcon {
-    width: 100%;
-}
+    width: 20%;
+  }
 
 
 /* ------- Footer ------- */
@@ -244,19 +244,4 @@ main div.weather h2 {
     right: 5%;
     font-weight: bolder;
     font-size: x-large;
-}
-/* -----Clearfix-------*/
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-/* -----Lazy Load Effect-------- */
-main.discover picture img[data-src] {
-    opacity: 0;
-    visibility: hidden;
-}
-main.discover picture img{
-    -webkit-transition: 1s linear;
-    transition: 1s linear;
 }

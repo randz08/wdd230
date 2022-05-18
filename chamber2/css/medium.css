@@ -43,14 +43,4 @@
         border-radius: 5px;
         padding: 1.5rem;
     }
-    /* -------Weather--------*/
-    .weather {
-        height: 20vh;
-    }
-    .weatherInfo {
-        right: 30%;
-    }
-    .weather figure {
-        left: 30%;
-    }
     
