@@ -90,6 +90,9 @@ div.join picture img{
     margin-bottom: 2rem;
     border-bottom: #666 solid 1px;
     padding: 1rem;
+    background-color: #0c05dc;
+    border: 2px solid rgb(14, 14, 14);
+    color: #E5E5E5;
 }
 .spotlight1 section img, .spotlight2 section img {
     padding: 1rem 0;

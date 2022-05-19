@@ -39,6 +39,9 @@
     .spotlight {
         align-self: center;
         flex: 1 1 auto;
+        background-color: #0c05dc;
+        border: 2px solid rgb(14, 14, 14);
+        color: #E5E5E5;
     }
 
     .join button {
