@@ -62,7 +62,7 @@
         align-self: center;
         margin: 1rem;
         background-color: #0c05dc;
-        border: 2px solid blue;
+        border: 2px solid rgb(14, 14, 14);
         color: #E5E5E5;
     }
     .spotlight2 {
@@ -70,6 +70,7 @@
         align-self: center;
         margin: 1rem;
         background-color: #0c05dc;
+        border: 2px solid rgb(14, 14, 14);
         color: #E5E5E5;
     }
     .spotlight1 section:last-child, .spotlight2 section:last-child {
@@ -104,7 +105,7 @@
     }
     .summary {
         display: block;
-        padding: 1.5rem;
+        padding: 1rem;
         margin: 0;
     }
 

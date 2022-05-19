@@ -56,14 +56,16 @@ nav ul.open {
 }
 #now {
     text-align: center;
-    padding: 1.5rem;
+    padding: 1rem;
     font-size: large;
+    background-color: #888;
+    font-weight: 800;
 }
 /* ------- Header -------- */
 .header-content{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:space-around;
     padding-left: 2rem;
 }
 .header-content h1 {
@@ -114,8 +116,8 @@ div.herodiv section {
     overflow: scroll;
 }
 .gold-members h2 {
-    background-color: #0c05dc;
-    color: white;
+    background-color: #FCA311;
+    color: #0c05dc;
     padding: 1rem 0;
 }
 .gold-members section a, .spotlight1 section a, .spotlight2 section a {
@@ -167,7 +169,7 @@ main div.weather h2 {
 }
 .join button:hover {
     background-color: #0c05dc;
-    color: white;
+    color: #FCA311;
 }
 .news-events h2 {
     background-color: #0c05dc;
@@ -199,6 +201,8 @@ main div.weather h2 {
 #weatherIcon {
     width: 20%;
   }
+
+
 
 
 /* ------- Footer ------- */
