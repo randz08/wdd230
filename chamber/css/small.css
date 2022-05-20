@@ -115,6 +115,21 @@ header {
     padding: 0;
 }
 
+#head {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding-left: 2rem;
+
+}
+
+#now {
+    text-align: center;
+    padding: 1rem;
+    font-size: large;
+    background-color: #888;
+    font-weight: 800;
+}
 
 /*structures*/
 

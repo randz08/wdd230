@@ -57,3 +57,5 @@ function toggleMenu() {
 }
 var year = new Date().getFullYear();
 document.querySelector('#year').textContent = year;
+
+document.querySelector('#now').innerHTML = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format();
