@@ -97,7 +97,7 @@ header h1 {
     padding-bottom: 0;
     color: #0800a8;
     margin: 0;
-    text-justify: center;
+    text-justify: auto;
 }
 
 .description {
