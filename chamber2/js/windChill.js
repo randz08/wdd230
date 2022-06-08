@@ -13,5 +13,5 @@ else {
 document.querySelector("#w").innerHTML = windchill;
 
 function windChill(temp, speed) {
-  return "SUCCESS";
+  return windchill;
 }
