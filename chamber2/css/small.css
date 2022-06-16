@@ -351,3 +351,33 @@ form label.top input:required:valid {
 #thankyou p {
     padding: 0 2rem 4rem 2rem;
 }
+
+/*--------Directory Page--------*/
+.directoryPage h2.dirHeading {
+    font-family: 'Montserrat';
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #EEEE;
+    margin-bottom: 3rem;
+}
+.list-view section h2, .grid-view section h2 {
+    font-family: 'Noto Serif';
+    text-align: center;
+}
+/*--------Directory Page buttons----------*/
+.links ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.links ul li span {
+    margin: 7px;
+    font-size: 2rem;
+}
+.links ul li:hover,
+.links ul li.active {
+    color: white;
+    background-color: #14213D;
+    border-radius: 5px;
+    cursor: pointer;
+}
