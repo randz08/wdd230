@@ -109,8 +109,18 @@ div.herodiv section {
     right: 0;
     padding: 1.5rem;
     color: rgba(92, 7, 7, 0.788);
+    background-color: rgba(255,255,255,.6);
+    -webkit-animation: slide 0.5s 
+    forwards;
+    -webkit-animation-delay: 1s;
     animation: slide 1.5s forwards;
     animation-delay: 1s;
+}
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+@keyframes slide {
+    100% { left: 0; }
 }
 
 .gold-members {
@@ -203,7 +213,7 @@ main div.weather h2 {
     bottom: 20%;
 }
 #weatherIcon {
-    width: 20%;
+    width: 100%;
   }
 
 
@@ -244,6 +254,30 @@ main div.weather h2 {
     right: 5%;
     font-weight: bolder;
     font-size: x-large;
+}
+/* -----Clearfix-------*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* -----Lazy Load Effect-------- */
+main.discover picture img[data-src] {
+    opacity: 0;
+    visibility: hidden;
+}
+main.discover picture img{
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+/* -----Discover Page Section-------- */
+.discover-heading {
+    background-color: #EEEE;
+    text-align: center;
+    padding: 1.5rem;
+}
+.greeting {
+    padding-bottom: 1rem;
 }
 
 /* ----Discover Media Card------ */

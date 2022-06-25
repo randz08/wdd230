@@ -1,4 +1,4 @@
-apiURL = 'https://api.openweathermap.org/data/2.5/weather?id=5660340&appid=caa8540702ef690bc84e562267149524&units=imperial';
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?q=san+jose+del+monte%2C+bulacan%2C+philippines&units=Imperial&appid=8ded2b1e173144cbf60d5c188578f667";
 
 fetch(apiURL)
     .then((response) => response.json())
