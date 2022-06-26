@@ -471,11 +471,11 @@ label.cont-fields input {
     margin: 1.5rem 0 1.5rem 1rem;
     padding: .50rem;
     background-color: #FCA311;
-    color: #14213D;
+    color: #0c05dc;
     font-weight: bold;
     border: none;
 }
 .contactBtn:hover {
-    background-color: #14213D;
+    background-color: #0c05dc;
     color: #E5E5E5;
 }
