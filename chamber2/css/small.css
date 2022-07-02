@@ -134,7 +134,7 @@ div.herodiv section {
 }
 .gold-members section a, .spotlight1 section a, .spotlight2 section a {
     text-decoration: none;
-    color: #f2f4f8;
+    color: #0a0a0a;
 }
 .spotlight1 section a:hover, .spotlight2 section a:hover {
     text-decoration: underline;
