@@ -8,24 +8,24 @@
             "images": "images/moldexRealty.webp"
         },
         {
-            "name": "J.P. International Construction",
+            "name": "E.C.Sadia Construction",
             "address": "Poblacion 1, CSJDM",
             "phone": "0916-897989",
-            "website": "www.jpinternational.com",
+            "website": "ecsadiaconstructioncorp.godaddysites.com",
             "images": "images/jp-construction.webp"
         },
         {
             "name": "Bhisma Marketing",
             "address": "Block 19 Lot 20 Gaya Gaya Housing, San Jose Del Monte",
             "phone": "406-755-8400",
-            "website": "bhismamarketing.com",
+            "website": "arielainc.com",
             "images": "images/bhisma.webp"
         },
         {
             "name": "Sheri's TPC Eloading Business",
             "address": "Blk.15 lot 16 Carissa home Kaypian San Jose Delmonte Bulacan 3023 San Jose del Monte Central Luzon ",
             "phone": "0939 849 6395",
-            "website": "tpc.com",
+            "website": "facebook.com",
             "images": "images/tpc.webp"
         },
         {
@@ -39,7 +39,7 @@
             "name": "LCC Phils.",
             "address": "446 N Prez Street, Gaya Gaya 3023 San Jose Del Monte Bulacan",
             "phone": "0917 967 6312",
-            "website": "lccphils.com",
+            "website": "laconcepcioncollege.com",
             "images": "images/lcc.webp"
         },
         {
@@ -53,35 +53,35 @@
             "name": "Grotto Vista Resort",
             "address": "Brgy. Graceville, San Jose Del Monte 3023 San Jose del Monte Central Luzon",
             "phone": "(044) 815 0943",
-            "website": "grottovista.com",
+            "website": "https://www.grottovistaresort.com/",
             "images": "images/grottovista.webp"
         },
         {
             "name": "EXPRESS EMPLOYMENT PROFESSIONALS",
             "address": "Bagong Buhay Iii 3023 San Jose Del Monte Bulacan ",
             "phone": "0915 999 5454",
-            "website": "eep.com",
+            "website": "https://www.jobstreet.com.ph/en/job-search/san-jose-del-monte-jobs-in-bulacan/",
             "images": "images/eep.webp"
         },
         {
             "name": "Philcakes",
             "address": "A Nat'L Road Carriedo Muzon 3023 San Jose Del Monte Bulacan ",
             "phone": "(044) 307 3058",
-            "website": "philcakes.com",
+            "website": "https://use.infobelpro.com/philippines/en/businessdetails/PH/0837066672",
             "images": "images/philcakes.webp"
         },
         {
             "name": "Mira-Jec Trucking Service",
             "address": "15 Blk. 15 Lot 5 Sec-24 Ph3 Pabahay Brgy. Muzon 3023 San Jose Del Monte Bulacan",
             "phone": "0918 367 5573",
-            "website": "mira-jektrucking.com",
+            "website": "https://sanjosedelmonte.yalwa.ph/Transportation-Logistics/810/",
             "images": "images/mira-jek.webp"
         },
         {
             "name": "SJDM busline",
             "address": "Ipo Road Minuyan Proper 3023 San Jose Del Monte Bulacan",
             "phone": "0917 546 6280",
-            "website": "sjdmbusline.com",
+            "website": "https://www.facebook.com/LuzonBusIncorporated/",
             "images": "images/busline.webp"
         }
     ]
