@@ -73,7 +73,7 @@
         grid-row: 2;
         align-self: center;
         margin: 1rem;
-        background-color: #0c05dc;
+        background-color: #3c35f7;
         border: 2px solid rgb(14, 14, 14);
         color: #E5E5E5;
     }
@@ -82,7 +82,7 @@
         grid-column: 3;
         align-self: center;
         margin: 1rem;
-        background-color: #0c05dc;
+        background-color: #3c35f7;
         border: 2px solid rgb(14, 14, 14);
         color: #E5E5E5;
     }
