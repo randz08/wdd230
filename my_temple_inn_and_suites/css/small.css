@@ -72,7 +72,6 @@ nav ul.open {
     display: flex;
     align-items: center;
     justify-content:space-around;
-    padding-left: 2rem;
 }
 
 h1, h2 {
@@ -88,36 +87,26 @@ h1, h2 {
     background-color: #888;
     font-weight: 800;
 }
- /*....Weather Card...*/
-/* --------------------Weather----------------------- */
-.weather-header,
-.temple-header {
-  font-weight: lighter;
-  text-align: center;
-  margin: 3vh;
-  margin-top: 6vh;
+/* -------Weather--------*/
+.weather {
+    width: 30vh;
+    height: 30vh;
 }
+.weatherInfo {
+    position: absolute;
+    right: 5%;
+    bottom: 5px;
+    text-align: left;
+}
+.weather figure {
+    position: absolute;
+    left: 10%;
+    bottom: 30%;
+}
+#weatherIcon {
+    width: 50%;
+  }
 
-.weather-card {
-  padding: 20px;
-  background: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
-  color: white;
-  text-align: center;
-}
-
-.today-weather {
-  margin-bottom: 15px;
-}
-
-table,
-td,
-tr,
-th {
-  border: 1px solid white;
-  border-collapse: collapse;
-  padding: 5px;
-  margin: auto;
-}
 /*----------- MAIN --------------*/
 main {
     padding: 2%;
