@@ -90,7 +90,7 @@ h1, h2 {
 /* -------Weather--------*/
 .weather {
     width: 30vh;
-    height: 30vh;
+    height: 35vh;
 }
 .weatherInfo {
     position: absolute;
