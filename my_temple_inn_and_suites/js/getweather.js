@@ -1,7 +1,7 @@
 function currentWeather(x) {
     var zip;
-    if (x == 1) {zip = 46032} // noblesville indiana
-    else if (x == 2) {zip = 96762} // laie hawaii
+    if (x == 1) {zip = 46032} // manila philippines
+    else if (x == 2) {zip = 96762} // cebu philippines
     else if (x == 3) {zip = 40014} // crestwood kentucky 
     else if (x == 4) {zip = 62354} // nauvoo illinois
     else if (x == 5) {zip = 92374} // redlands california
@@ -12,7 +12,7 @@ function currentWeather(x) {
     weatherObject.onload = function pullWeather() {
         var weatherInfo = JSON.parse(weatherObject.responseText);
         console.log(weatherInfo);
-        if (weatherInfo.name == "Indianapolis") /* noblesville indiana */ {
+        if (weatherInfo.name == "Philippines") /* noblesville indiana */ {
             document.getElementById('currentType1').innerHTML = weatherInfo.weather[0].description;
             document.getElementById('mainTemp1').innerHTML = Math.round(weatherInfo.main.temp);
         }

@@ -11,8 +11,9 @@ fetch(apiURL)
         let speed = jsonObject.wind.speed;
 
         document.querySelector('.cityName').textContent = jsonObject.name;
-        document.querySelector('figcaption').textContent = jsonObject.weather[0].description;
+        
         document.querySelector('#weatherIcon').setAttribute('src', iconURL);
+        document.querySelector('figcaption').textContent = jsonObject.weather[0].description;
         document.querySelector('#weatherIcon').setAttribute('alt', jsonObject.weather[0].description);
         document.querySelector('.temp').innerHTML = `Temperature: ${temp} &deg;F`;
         document.querySelector('.wind-speed').textContent = `Wind Speed: ${speed} mph`;

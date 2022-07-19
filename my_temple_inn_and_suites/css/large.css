@@ -16,9 +16,6 @@ nav button {
     display: none;
 }
 
-nav ul#primaryNav {
-    display: flex;
-}
 
 nav ul li {
     align-self: center;

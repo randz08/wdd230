@@ -1,8 +1,15 @@
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
-html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
 
 /*----------- apply a natural box layout model to all elements --------------*/
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 /*----------- BODY --------------*/
 body {
@@ -19,6 +26,7 @@ nav button {
     font-size: 2rem;
     color: white
 }
+
 nav {
     background-color: #0c05dc;
     text-align: center;
@@ -29,6 +37,7 @@ nav ul {
     list-style-type: none;
     text-decoration: none;
 }
+
 nav ul li a {
     display: block;
     color: white;
@@ -37,49 +46,53 @@ nav ul li a {
     border-top: 1px solid #0c05dc;
     font-size: large;
 }
+
 nav ul li a:hover {
     background-color: #FCA311;
     color: #000000;
 }
+
 nav ul {
     display: none;
 }
+
 nav ul.open {
     display: block;
 }
 
-#current-page a {
-    color: #FFF;
-    background-color: #012A36;
- }
- 
- #current-page {
-    background-color: #012A36;
- }
- 
- .menu {
-    list-style: none;
+nav ul li.current-page a {
+    background-color: #527ee9;
+    color: #111111;
+}
+nav ul.hide {
     display: none;
- }
- 
- .responsive {
-    display: block;
-    list-style: none;
- }
- 
-/* ------- Header -------- */
-.header-content{
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
 }
 
-h1, h2 {
+.menu {
+    list-style: none;
+    display: none;
+}
+
+.responsive {
+    display: block;
+    list-style: none;
+}
+
+/* ------- Header -------- */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1,
+h2 {
     font-family: 'Great Vibes', cursive, sans-serif;
     color: #012A36;
     font-size: 3em;
     margin: 25px;
- }
+}
+
 .datetime {
     text-align: center;
     padding: 1rem;
@@ -87,37 +100,43 @@ h1, h2 {
     background-color: #888;
     font-weight: 800;
 }
+
 /* -------Weather--------*/
 .weather {
     width: 30vh;
     height: 35vh;
 }
+
 .weatherInfo {
     position: absolute;
     right: 5%;
     bottom: 5px;
     text-align: left;
 }
+
 .weather figure {
     position: absolute;
     left: 10%;
     bottom: 30%;
 }
+
 #weatherIcon {
     width: 50%;
-  }
+}
 
 /*----------- MAIN --------------*/
 main {
     padding: 2%;
     min-height: 10rem;
 }
+
 main h1 {
     font-weight: bold;
     font-size: 40px;
     color: #527ee9;
     text-shadow: 4px 4px 4px #aaa;
 }
+
 Main h2 {
     margin-bottom: 0;
     font-weight: normal;
@@ -125,6 +144,7 @@ Main h2 {
     color: #527ee9;
     text-shadow: 4px 4px 4px #aaa;
 }
+
 main .herodiv {
     width: 100%;
     padding: 0;
@@ -132,12 +152,14 @@ main .herodiv {
     margin-right: auto;
     position: relative;
 }
+
 main .herodiv figure {
     width: 100%;
     padding: 0;
     margin-left: auto;
     margin-right: auto;
 }
+
 main .herodiv .actioncall {
     position: absolute;
     top: 1rem;
@@ -147,6 +169,7 @@ main .herodiv .actioncall {
     padding: 0.2rem;
     box-shadow: 0 0 30px #fff;
 }
+
 main .herodiv .actioncall button {
     border: none;
     background-color: #527ee9;
@@ -156,12 +179,15 @@ main .herodiv .actioncall button {
     width: 96%;
     max-width: 20rem;
 }
+
 main .herodiv .actioncall h3 {
     margin: 0.5rem;
 }
+
 main .herodiv .actioncall p {
     margin: 0.2rem;
 }
+
 main .row {
     display: block;
     width: 100%;
@@ -169,66 +195,83 @@ main .row {
     margin-right: auto;
     padding: 0.2rem;
 }
-main .row section:nth-child(3){
+
+main .row section:nth-child(3) {
     margin-left: 2%;
 }
+
 main .gallery {
     display: flex;
     flex-wrap: wrap;
 }
+
 main .gallery figure {
     flex-basis: 96%;
     margin: 1rem 2%;
     transition: all .2s ease-in-out;
 }
+
 main .gallery figure figcaption {
     padding: 1%;
 }
+
 main .gallery figure:hover {
     transform: scale(1.05);
 }
+
 main .gallery figure img {
     width: 100%;
 }
+
 main img {
-    width:100%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
 }
+
 /*----------- MAIN --------------*/
 #slideshow:after {
     content: "";
     display: table;
     clear: both;
 }
+
 #slideshow img {
     float: left;
     margin: 0 -100% 0 0;
 }
+
 /*----------- FORM --------------*/
 form {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     flex-basis: 96%;
 }
+
 form fieldset {
     margin: 2rem 2%;
     border: 1px solid #527ee9;
     border-radius: 10px;
     padding: .5rem 2%;
 }
+
 form legend {
     color: #527ee9;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
-form label.top, form div, form label.slide {
+
+form label.top,
+form div,
+form label.slide {
     display: block;
     padding-top: 1rem;
     color: #527ee9;
     font-size: .8rem;
 }
-form label.top input, form label.top select {
+
+form label.top input,
+form label.top select {
     -webkit-appearance: none;
     display: block;
     font-size: 1rem;
@@ -238,13 +281,15 @@ form label.top input, form label.top select {
     color: #555;
     width: 100%;
     max-width: 25rem;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
+
 form label.sbs {
     display: block;
     padding: .75rem 0;
     color: #555;
 }
+
 form label.slide input {
     display: block;
     font-size: 1rem;
@@ -254,8 +299,9 @@ form label.slide input {
     color: #555;
     width: 100%;
     max-width: 25rem;
-    background-color: rgba(0,0,0,0.1);
+    background-color: rgba(0, 0, 0, 0.1);
 }
+
 form input.submitBtn {
     border: none;
     background-color: #527ee9;
@@ -266,12 +312,15 @@ form input.submitBtn {
     width: 96%;
     max-width: 25rem;
 }
+
 form label.top input:required {
     border-left: red solid 6px;
 }
+
 form label.top input:required:valid {
     border-left: green solid 6px;
 }
+
 form label.top textarea {
     margin: 2% 0;
     width: 100%;
@@ -284,6 +333,7 @@ main .temples {
     display: flex;
     flex-wrap: wrap;
 }
+
 main .temples article {
     margin: 1rem 2%;
     flex-basis: 96%;
@@ -293,52 +343,55 @@ main .temples article {
     padding: 1%;
     transition: all .2s ease-in-out;
 }
+
 main .temples article img {
     width: 100%;
 }
+
 main .temples article:hover {
     box-shadow: 0 0 12px #555;
     transform: scale(1.05);
 }
+
 /*---Services Page---*/
-speciallist {
-    list-style-type: circle;
-  }
-  
-  .special {
-    border-style: double;
+
+
+.special {
+    border: solid 7px #2159f3;
     margin: auto;
     padding: 10px;
-    width: 70%;
+    width: 100%;
     line-height: 40px;
-    font-size: 20px;
-    background-color: silver;
-  }
-  
+    background-color: rgb(255, 251, 251);
+}
 
-  
-  .title {
+
+
+.title {
     text-align: center;
     color: whitesmoke;
     background-color: #0c05dc;
-  }
-  .specialImg {
+}
+
+.specialImg {
     display: none;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
 /* FULL-TIME MISSIONARY PAGE */
 .grid-container {
     background-color: skyblue;
     padding-bottom: 20px;
-  }
-  main.grid-item {
+}
+
+main.grid-item {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
-  .text1 {
+}
+
+.text1 {
     color: black;
     font-size: 20px;
     padding: 8px 12px;
@@ -346,21 +399,42 @@ speciallist {
     margin-left: 38px;
     width: 100%;
     font-style: italic;
-  }
-  .action, .types {
+}
+
+.action,
+.types {
     font-weight: bold;
     font-size: larger;
-  }
-  .photo1 {
+}
+
+.photo1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: 5px outset white;
+}
+
+.bed-button {
+    display: inline-block;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(248, 246, 246);
+    background-color: rgb(30, 19, 242);
+    border: none;
   }
-  /* Next & previous buttons */
   
-  .prev1,
-  .next1 {
+  .bed-button:hover {
+    background-color: #FCA311;
+    color: #000;
+  }
+/* Next & previous buttons */
+
+.prev1,
+.next1 {
     cursor: pointer;
     position: absolute;
     /* top: 50%;  */
@@ -376,79 +450,84 @@ speciallist {
     border-radius: 0 3px 3px 0;
     user-select: none;
     background-color: #DCD0C0;
-  }
-  /* Position the "next button" to the right */
-  
-  .next1 {
+}
+
+/* Position the "next button" to the right */
+
+.next1 {
     /* right: 0; */
     border-radius: 3px 0 0 3px;
-  }
-  /* On hover, add a black background color with a little bit see-through */
-  
-  .prev1:hover,
-  .next1:hover {
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.prev1:hover,
+.next1:hover {
     background-color: rgb(167, 143, 113);
-  }
-  
-  .prev1 {
+}
+
+.prev1 {
     left: 0;
     border-radius: 3px 0 0 3px;
-  }
-  .numbertext {
+}
+
+.numbertext {
     text-align: center;
     padding-bottom: 5px;
     font-size: larger;
-  }
+}
 
-   /* On smaller screens, decrease text size */
- @media only screen and (max-width: 300px) {
- 
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
     .prev,
     .next,
     .text {
-      font-size: 11px
+        font-size: 11px
     }
-  }
-  
- 
- .testimonials {
+}
+
+
+.testimonials {
     font-size: 0.9rem;
     display: grid;
     grid-template-areas:
-       "div div"
-       "div div";
+        "div div"
+        "div div";
     grid-gap: 20px 50px;
     margin: 20px;
- }
- 
- .testimonials img {
+}
+
+.testimonials img {
     display: none;
- }
- 
- .testimonials p {
+}
+
+.testimonials p {
     margin: 0px;
- }
- 
- .comment-wrap {
+}
+
+.comment-wrap {
     text-align: right;
- }
- 
- .third-comment {
+}
+
+.third-comment {
     display: none;
- }
- 
- .name-wrap {
+}
+
+.name-wrap {
     color: #012A36;
     font-size: 0.8em;
- }
+}
 
 /*----------- CONTACT --------------*/
 body .contact {
     padding: 0 2%;
 }
+
 body .contact p {
     margin: 0.2rem;
 }
+
 body .contact h2 {
     margin: 0;
 }
@@ -461,10 +540,18 @@ footer {
     text-align: center;
     clear: both;
 }
+footer a {
+    color: #fbfbfb;
+    text-decoration: none;
+ }
 
+ .sub-footer {
+    font-size: .8em;
+    line-height: 1em;
+ }
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
